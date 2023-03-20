@@ -25,7 +25,7 @@ FIND_LIBRARY(
           /usr/lib64
           )
 
-include("${CMAKE_CURRENT_LIST_DIR}/gnuradio-scopyTarget.cmake")
+include("${CMAKE_CURRENT_LIST_DIR}/gnuradio-scopyTargets.cmake")
 
 INCLUDE(FindPackageHandleStandardArgs)
 FIND_PACKAGE_HANDLE_STANDARD_ARGS(GR_SCOPY DEFAULT_MSG GR_SCOPY_LIBRARIES GR_SCOPY_INCLUDE_DIRS)
